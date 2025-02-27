@@ -40,7 +40,7 @@ PartialTrace(x0+x1,1)==trace(x0)*eye(2);
 PartialTrace(y0,1)==trace(y0)*eye(2)/2;
 PartialTrace(y1,1)==trace(y1)*eye(2)/2;
 
-%Objectiv: given success probability, maximize F
+%Objective: given success probability, maximize F
 maximize(F)
   
 cvx_end
@@ -75,4 +75,6 @@ pwin==pwin1;
     maximize(F)
   
 cvx_end
+
+
 
